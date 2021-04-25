@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+</head>
+<body>
+
+<form name="Student Application" action="send.php" method="post">
+
+<table width="5" border="1" cellspacing="2" cellpadding="2">
+
+<tr>
+<td colspan="2" align="center">Student Application</td>
+</tr>
+
+<tr>
+<td>First Name</td>
+<td><input type="text" name="fname" maxlength="50" /></td>
+</tr>
+
+
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="lname" maxlength="50" /></td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td>
+<select name="dept">
+<option value="CS">CSE</option>
+<option value="EC">ECE</option>
+<option value="EE">EEE</option>
+<option value="ME">MECH</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Year</td>
+<td>
+<select name="year">
+<option value="1s">1st year</option>
+<option value="2n">2nd year</option>
+<option value="3r">3rd year</option>
+<option value="4d">4th year</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gtype" value="female"/>Female
+<input type="radio" name="gtype" value="male"/>Male
+<input type="radio" name="gtype" value="others"/>Others
+ </td>
+</tr>
+
+<tr>
+<td>Skills</td>
+<td>
+<input type="checkbox" name="c"/>C
+<input type="checkbox" name="c+"/>C++
+<input type="checkbox" name="ja"/>Java
+<input type="checkbox" name="py"/>Python
+<input type="checkbox" name="ht"/>HTML
+</td>
+</tr>
+
+<tr>
+<td>Comments</td>
+<td>
+<textarea name="comments" cols="100" rows="5"/></textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" name="submit" value="Submit"/>
+<input type="reset" name="reset" value="Reset"/>
+</td>
+</tr>
+
+</form>
+
+</body>
+</html>
+
