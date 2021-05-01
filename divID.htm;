@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+<head>
+<title>html css</title>
+<meta charset="utf-8">
+
+<style type="text/css">
+
+#div1{
+width:100%;
+height:500px;
+border:3px solid black;
+background-image:url(ball.jpg);
+background-repeat:repeat-y;
+}
+#div2{
+width:100%;
+height:500px;
+border:3px solid black;
+background-image:url(ball.jpg);
+background-repeat:repeat-x;
+}
+#div3{
+width:100%;
+height:500px;
+border:3px solid black;
+background-image:url(ball.jpg);
+}
+#div4{
+width:100%;
+height:500px;
+border:3px solid black;
+background-image:url(ball.jpg);
+background-repeat:no-repeat;
+background-position:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="div1"></div>
+
+<div id="div2"></div>
+
+<div id="div3"></div>
+
+<div id="div4"></div>
+
+</body>
+
+</html>
