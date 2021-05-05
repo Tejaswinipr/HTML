@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<head>
+<title>CSS Project</title>
+<meta charset="utf-8">
+<style> 
+
+body{
+margin:0;
+padding:0;
+line-height:1.5em;
+}
+
+#header{
+background:black;
+font-family:arial;
+height:100px;
+}
+
+#contentwrapper{
+float:left;
+width:100%;
+}
+
+#contentcolumn{
+margin:0 230px 0 230px;
+}
+
+#leftcolumn{
+float:left;
+width:230px;
+margin-left:-100%;
+background:blue;
+}
+
+#rightcolumn{
+float:right;
+width:230px;
+margin-left:-230px;
+background:yellow
+}
+
+.innertext{
+margin:20px;
+font-family:Arial;
+color:black;
+}
+
+#footer{
+clear:left;
+background:black;
+color:#FFF;
+font-family:Arial;
+text-align:center;
+padding:4px;
+}
+
+/*Navigation Bar*/
+
+u1{
+list-style-type:none;
+margin:0;
+padding:0;
+background-color:#000;
+}
+
+li{
+float:left;
+border-right:1px solid #bbb;
+}
+
+li last-child{
+border-right:none;
+}
+
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+
+li a:hover:not(.active){
+background-color:#808080;
+}
+
+.active{
+background-color:#0099ff;
+}
+
+@media (max-width:840px){
+
+#leftcolumn{
+margin-left:-100%;
+}
+
+#rightcolumn{
+float:none;
+width:100%;
+margin-left:0;
+clear:both;
+}
+
+#content column{
+margin-right:0;
+}
+
+}
+
+@media(max-width:600px){
+
+#leftcolumn{
+float:none;
+width:100%;
+clear:both;
+margin:left;
+}
+
+#contentcolumn{
+margin-left:0;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="header">
+		<ul style="display:inline;">
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">About</a></li>
+			<li><a href="#contact">News</a></li>
+			<li><a href="#about">Contact</a></li>
+		</ul>
+	</div>
+	<div id="contentwrapper">
+		<div id="contentcolumn">
+			<div id="innertext">
+			<b>Welcome!</b><br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+<br>Welcome to our Online Real Estate System.It an interactive and user-friendly website to buy,sell,rent or lease your property......
+
+
+			</div>
+		</div>
+	</div>
+ 
+		<div id="leftcolumn">
+			<div class="innertext">
+			<b>Left Column:<em>230px</em></b><br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+			</div>
+		</div>
+ 
+		<div id="rightcolumn">
+			<div class="innertext">
+			<b>Right Column:<em>230px</em></b><br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+<br>Get the number 1 online website to  buy,sell,rent or lease your property......
+			</div>
+		</div>
+<div id="footer">Thankyou</div>
+
+</div>
+</body>
+
+</html>
